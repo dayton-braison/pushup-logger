@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("karsten-winegeart-w6BHqa8ukc0-unsplash.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 0;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+#increment-btn {
+  background-color: rgba(32, 32, 197, 0.801);
+  color: azure;
+}
+
+#increment-btn:hover {
+  width: 153px;
+  background-color: rgba(52, 52, 197, 0.726);
+}
+
+#save-btn {
+  background-color: rgba(36, 228, 29, 0.849);
+}
+
+#save-btn:hover {
+  width: 153px;
+  background-color: rgba(102, 231, 70, 0.863);
+}
+
+#save-element {
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
